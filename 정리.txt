@@ -11,4 +11,4 @@ git push -u origin main
    여기서부터 하면됨 !!!
    Git add .
    Git commit -m “add”
-   Git push origin main
+   Git push origin master
