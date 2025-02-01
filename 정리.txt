@@ -1,1 +1,14 @@
 1. Ctrl + Enger 계행된다 (vscode)
+2. git 올리기
+초기화 ->
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/kelly3131/241022private.git
+git push -u origin main
+
+   여기서부터 하면됨 !!!
+   Git add .
+   Git commit -m “add”
+   Git push origin main
