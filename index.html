@@ -4,15 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      .someClass a{
+        pointer-events: none;
+        color: #030303; /* 상황에 맞게 지정하세요 */
+        text-decoration: line-through;
+      }
+    </style>
   </head>
   <body>
     <ul>
-      <li><a href="./01_text.html"></a>01_text</li>
-      <li><a href="./02_link.html"></a>02_link</li>
-      <li><a href="./03_list.html"></a>03_list</li>
-      <li><a href="./04_video.html"></a>04_video</li>
-      <li><a href="./05_picture.html"></a>05_picture</li>
-      <li><a href="./06_table.html"></a>06_table</li>
+      <li class="someClass"><a href="./01_text.html" aria-disabled="">01_text</a></li>
+      <li class="someClass"><a href="./02_link.html">02_link</a></li>
+      <li><a href="./03_list.html">03_list</a></li>
+      <li class="someClass"><a href="./04_video.html">04_video</a></li>
+      <li class="someClass"><a href="./05_picture.html">05_picture</a></li>
+      <li><a href="./06_table.html">06_table</a></li>
     </ul>
   </ul>
   </body>
