@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>온라인서식</title>
+  </head>
+  <body>
+    <h2>폼8</h2>
+    <ul>
+      <li>
+        <strong>담당부서</strong>
+        <p>경영지원실</p>
+      </li>
+      <li>
+        <strong>뷰어다운</strong>
+        <p>한글뷰어 한글뷰어</p>
+      </li>
+      <li>
+        <strong>만족도</strong>
+        <p>페이지의 내용이나 사용편의성에 대해 만족하십니까?</p>
+      </li>
+      <li>
+        😍<input type="radio" name="" id="" />매우만족 😒<input type="radio" name="" id="" />만족 👍<input
+          type="radio"
+          name=""
+          id=""
+        />보통 🙌<input type="radio" name="" id="" />불만족 ❤<input type="radio" name="" id="" />매우불만족
+        <form action="">
+          <fieldset>
+            <legend>만족도 조사</legend>
+            <input type="text" placeholder="여러분의 소중한 의견을 보내주세요" />
+            <button>전송</button>
+          </fieldset>
+        </form>
+      </li>
+    </ul>
+    <h2>폼2</h2>
+    <form action="">
+      <fieldset>
+        <legend>게시물검색</legend>
+        <select name="" id="">
+          <option value="">제목</option>
+        </select>
+        <input type="search" name="" id="" placeholder="검색어를 입력해주세요" />
+        <button type="submit">검색</button>
+      </fieldset>
+    </form>
+    <h2>공통속성</h2>
+    <input type="text" value="입력된값" />
+    <input type="radio" name="" id="" value="데이터 전달값" /> <br />
+    <div>이름</div>
+    <input type="text" placeholder="이름을 입력해주세요" /> <br />
+    <form action="">
+      <input type="text" minlength="5" maxlength="10" /> 최소/최대 글자수
+      <br />
+      <button>전송</button>
+    </form>
+    <br />
+    <br />
+    <input type="text" disabled value="작성됨" /> 비활성 <br />
+    <input type="text" readonly value="작성됨" /> 읽기전용 <br />
+    <br />
+    <br />
+    <input type="text" autofocus /> 초점이동 <br />
+    <input type="text" autofocus /> 초점이동
+    <br />
+    <br />
+    <input type="text" minlength="5" maxlength="10" /> 최소/최대 글자수
+    <input type="number" name="" id="" min="0" max="10" />
+    <br />
+    <br />
+    <input type="date" name="" id="" min="2025-02-08" max="2025-02-21" />
+
+    <form action="">
+      <fieldset>
+        <legend>Flask</legend>
+        <ul>
+          <li><input type="text" required />한줄 글상자</li>
+          <!-- id는 Label을 위해서 name은 데이터담기 위해 -->
+          <li><input type="password" name="" id="" />비밀번호</li>
+          <li><input type="file" name="" id="" />첨부파일</li>
+          <li><input type="url" />주소입력</li>
+          <li><input type="email" name="" id="" />Email</li>
+          <li><input type="number" name="" id="" />숫자입력</li>
+          <li><input type="tel" name="" id="" />전화번호입력</li>
+          <li><input type="search" name="" id="" />검색입력</li>
+          <li><input type="date" name="" id="" />월별선택</li>
+          <li><input type="time" name="" id="" /></li>
+          <li><textarea name="" id="" col="10" row="5">여려줄입력상자</textarea></li>
+          <li><input type="range" name="" id="" /></li>
+          <li><progress></progress></li>
+          <li><input type="color" name="" id="" /></li>
+          <li><button type="button">범용버튼</button></li>
+          <li><button type="submit">전송버튼</button></li>
+          <li><button type="reset">초기화</button></li>
+          <li><button>전송버튼2</button></li>
+          <li>
+            <select name="" id="">
+              <option value="">선택하세요</option>
+              <option value="number1">010</option>
+              <option value="number1">001</option>
+              <option value="number1">002</option>
+              <option value="number1">003</option>
+              <option value="number1">004</option>
+            </select>
+          </li>
+          <li>
+            <select name="" id="" multiple>
+              <option value="">선택하세요</option>
+              <option value="number1">010</option>
+              <option value="number1">001</option>
+              <option value="number1">002</option>
+              <option value="number1">003</option>
+              <option value="number1">004</option>
+            </select>
+          </li>
+          <li>
+            <select name="" id="">
+              <optgroup label="선택구릅">
+                <option value="">선택하세요</option>
+                <option value="number1">010</option>
+              </optgroup>
+              <optgroup label="선택구릅">
+                <option value="number1">001</option>
+                <option value="number1">002</option>
+              </optgroup>
+              <option value="number1">003</option>
+              <option value="number1">004</option>
+            </select>
+          </li>
+          <li>
+            <input type="radio" name="group1" id="sel_1" /><label for="sel_1">선택1 </label><br />
+            <input type="radio" name="group1" id="sel_2" /><label for="sel_2">선택2</label>
+          </li>
+          <li>
+            <input type="checkbox" name="" id="c" /><label for="c">선택1</label> <br />
+            <input type="checkbox" name="" id="d" /><label for="d">선택2</label> <br />
+            <input type="checkbox" name="" id="e" /><label for="e">선택3</label> <br />
+          </li>
+        </ul>
+      </fieldset>
+    </form>
+  </body>
+</html>

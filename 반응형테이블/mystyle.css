@@ -1,0 +1,176 @@
+body {
+  padding: 30px;
+  transition: 0.5s;
+  &:has([style]) {
+    background: rgba(0, 0, 0, 0.05);
+  }
+}
+.wrap {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-inline: auto;
+  background: #fff;
+  transition: 0.5s;
+}
+.show {
+  position: fixed;
+  right: 5px;
+  top: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+table {
+  th,
+  td {
+    border: 1px solid #222;
+    padding: 10px;
+  }
+  th {
+    background-color: rgba(0, 0, 0, 0.15);
+  }
+}
+.zoom {
+  display: none;
+  .mobile & {
+    display: inline-block;
+  }
+}
+
+h2 {
+  margin-block: 50px -10px;
+}
+
+.scroll {
+  .mobile & {
+    width: 360px;
+    overflow-x: auto;
+    table {
+      width: 1000px;
+    }
+  }
+}
+
+.guide {
+  .mobile & {
+    position: relative;
+    overflow: hidden;
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.1);
+    }
+    &::after {
+      content: "클릭해서\a좌우 스크롤\a하세요";
+      white-space: pre;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      border-radius: 1000px;
+      width: 100px;
+      aspect-ratio: 1;
+      background: #fff;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 13px;
+      translate: -50% -50%;
+    }
+  }
+  &.showScroll {
+    width: 360px;
+    overflow-x: auto;
+    table {
+      width: 1000px;
+    }
+    &::before,
+    &::after {
+      display: none;
+    }
+  }
+}
+
+.type3 {
+  .mobile & {
+    thead,
+    colgroup {
+      display: none;
+    }
+    td {
+      padding: 0;
+      display: grid;
+      grid-template-columns: min-content 1fr;
+      align-items: center;
+      gap: 10px;
+      .th {
+        background: #222;
+        padding: 10px;
+        color: #fff;
+        white-space: nowrap;
+      }
+      + td {
+        border-top: none;
+      }
+    }
+  }
+}
+
+.type4 {
+  .mobile & {
+    th,
+    td {
+      display: block;
+    }
+    th {
+      background: none;
+      border: none;
+      padding: 0;
+      text-align: left;
+      font-weight: normal;
+    }
+    td {
+      border: none;
+      padding: 0;
+    }
+    tr {
+      display: block;
+      position: relative;
+      padding-block: 10px;
+      margin-top: 10px;
+      &::after {
+        content: "";
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        translate: 0 -50%;
+        border-right: 1px solid #000;
+        border-bottom: 1px solid #000;
+        rotate: -45deg;
+        width: 8px;
+        aspect-ratio: 1;
+      }
+      + tr {
+        border-top: 1px solid #000;
+      }
+    }
+  }
+}
+
+dialog {
+  button {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    translate: -50%;
+  }
+}

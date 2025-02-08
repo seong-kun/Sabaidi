@@ -12,3 +12,6 @@ git push -u origin main
    Git add .
    Git commit -m “add”
    Git push origin master
+
+2. figma > community > dashboard > filter(free)적용
+3. 이모지  Win + .   

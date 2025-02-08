@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>id vs class</title>
+  </head>
+  <body>
+    <h2>ID</h2>
+    <div id="text">텍스트</div>
+    <h2>Class</h2>
+    <div class="text bold orange">텍스트</div>
+
+    <style>
+      #text {
+        color: red;
+      }
+      .text {
+        color: blue;
+      }
+      .bold.text {
+        font-weight: bold;
+      }
+      .bold.orange {
+        color: orange;
+      }
+    </style>
+  </body>
+</html>
+
+<!-- 카멜케이스(camelCase) 케밥케이스(kebab-case)/닭꼬치 스네티크케이스(snake_case) BEM 기법 -->
+<!-- BEM Block,Element,Modifier 클래스 이름짓는법 => .header__navigation--navi-text -->
