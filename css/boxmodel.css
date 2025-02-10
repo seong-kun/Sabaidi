@@ -1,0 +1,29 @@
+.box {
+  width: 200px;
+  aspect-ratio: 1;
+  border: 2px solid red;
+  /* padding: 20px 10px 5px 1px;
+  margin: 20px 10px 5px 1px; */
+  /* padding-inline: 10px 20px;
+  padding-block: 30px; */
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.box2 {
+  width: 200px;
+  aspect-ratio: 1;
+  margin-top: 10px;
+  border: 2px solid blue;
+  border-top: 1px solid #000;
+  border-right: 2px dashed orange;
+  border-bottom: 3px dotted saddlebrown;
+  border-left: 4px double #000;
+}
+.box3 {
+  width: 50px;
+  box-sizing: border-box;
+  border-width: 50px;
+  border-style: solid;
+  border-color: transparent transparent orange transparent;
+}

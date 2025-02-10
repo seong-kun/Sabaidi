@@ -6,6 +6,203 @@
     <title>온라인서식</title>
   </head>
   <body>
+    <h2>폼1</h2>
+    <h2><img src="./images/logo4 1.svg" alt=""></h2>
+    <nav>
+       <ul>
+           <li><a href="#">아트앤컬처</a></li>
+           <li><a href="#">교과서 자료실</a></li>
+           <li><a href="#">작품 감상실</a></li>
+           <li><a href="#">포트폴리오</a></li>
+           <li><a href="#">고객센터</a></li>
+       </ul>
+    </nav>
+    <div>
+        <img src="./images/Frame 255.svg" alt="">
+        <h2>회원가입</h2>
+        <p>이미 계정이 있으신가요? <a href="">로그인</a></p>
+        <form>
+          <fieldset>
+            <legend>회원가입하기</legend>
+            <table class="join">
+              <caption>회원가입하기</caption>
+              <colgroup>
+                <col style="width: 144px">
+                <col />
+              </colgroup>
+              <tbody>
+                <tr>
+                  <th colspan="2">가입 정보 입력</th>
+                </tr>
+                <tr>
+                  <th>아이디</th>
+                  <td><input type="text"><button type="button" style="background:#00AFD7;color:white">충복확인</button></td>
+                </tr>
+                <tr>
+                  <th>비밀번호</th>
+                  <td><input type="password"></td>
+                </tr>
+                <tr>
+                  <th>비밀번호 확인</th>
+                  <td><input type="password"></td>
+                </tr>
+                <tr>
+                  <th colspan="2">계정 정보 입력</th>
+                </tr>
+                <tr>
+                  <th>이름</th>
+                  <td><input type="text"></td>
+                </tr>
+                <tr>
+                  <th>이메일</th>
+                  <td><input type="email"></td>
+                </tr>
+                <tr>
+                  <th colspan="2">개인정보 확인</th>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <input type="checkbox" name="" id="process"><label for="process">개인정보처리방침</label>
+                    <button type="button" style="background:white">전문보기</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <button type="reset">취소하기</button>
+            <button type="submit" style="background:#FFCE01">가입하기</button>
+          </fieldset>
+        </form>
+    </div>
+                 
+    <h2>폼2</h2>
+    <div>
+        <p>총
+        488건</p>     
+        <form action="">
+          <fieldset>
+            <legend>게시물검색</legend>
+            <select name="" id="">
+              <option value="">제목</option>
+            </select>
+            <input type="search" name="" id="" placeholder="검색어를 입력해주세요" />
+            <button type="submit">검색</button>
+          </fieldset>
+        </form>      
+    </div>
+    <div>
+      <table class="posting">
+        <caption>채용공고</caption>
+        <colgroup>
+          <col style="width:198px ">
+          <col />
+          <col style="width:122px ">
+          <col style="width:211px ">
+        </colgroup>
+        <thead>
+          <tr>
+            <th>구분</th>
+            <th>제목</th>
+            <th>첨부</th>
+            <th>등록일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>공지</td>
+            <td><a href="">[채용공고] 채권운용본부 크레딧애널리스트 경력직 채용</a></td>
+            <td><img src="./images/Download1.svg" alt=""></td>
+            <td>2024-04-19</td>
+          </tr>
+          <tr>
+            <td>공지</td>
+            <td><a href="">[채용공고] 채권운용본부 크레딧애널리스트 경력직 채용</a></td>
+            <td><img src="./images/Download1.svg" alt=""></td>
+            <td>2024-04-19</td>
+          </tr>
+          <tr>
+            <td>공지</td>
+            <td><a href="">[채용공고] 채권운용본부 크레딧애널리스트 경력직 채용</a></td>
+            <td><img src="./images/Download1.svg" alt=""></td>
+            <td>2024-04-19</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    
+    <h2>폼3</h2>
+        <form>
+          <fieldset>
+            <legend>문의등록</legend>
+            <table class="inquiry">
+              <caption>문의등록</caption>
+              <colgroup>
+                <col style="width:81px ">
+                <col />
+              </colgroup>
+              <tbody>
+                <tr>
+                  <th>문의유형<img src="./images/_.svg" alt=""></th>
+                  <td><select name="" id="">
+                      <option value="">선택</option>
+                  </select></td>
+                </tr>
+                <th>산업군<img src="./images/_.svg" alt=""></th>
+                  <td>
+                    <select name="" id="">
+                      <option value="">1차 산업군</option>
+                    </select>
+                    <select name="" id="">
+                      <option value="">2차 산업군</option>
+                    </select>
+                    <select name="" id="">
+                      <option value="">3차 산업군</option>
+                    </select>
+                    <strong>제품군</strong>
+                    <select name="" id="">
+                      <option value="">대분류</option>
+                    </select>
+                    <select name="" id="">
+                      <option value="">중분류</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <th>성<img src="./images/_.svg" alt=""></th>
+                  <td>
+                    <input type="text" placeholder="성입력">
+                    <strong>이름<img src="./images/_.svg" alt=""></strong>
+                    <input type="text" placeholder="이름입력">
+                    <strong>성별</strong>
+                    <input type="radio" name="group" id="man" checked><label for="man">남자</label>
+                    <input type="radio" name="group" id="woman"><label for="woman">여자</label>
+                  </td>
+                </tr>
+                <tr>
+                  <th>이메일<img src="./images/_.svg" alt=""></th>
+                  <td>
+                    <input type="email" name="" id="" placeholder="이메일 입력"> 
+                    <strong>연락처<img src="./images/_.svg" alt=""></strong>
+                    <input type="text" placeholder="연락처 입력">
+                  </td>
+                </tr>
+                <tr>
+                  <th>회사명<img src="./images/_.svg" alt=""></th>
+                  <td>
+                    <input type="email" name="" id="" placeholder="회사명 입력"> 
+                    <strong>직급<img src="./images/_.svg" alt=""></strong>
+                    <input type="text" placeholder="직급 입력">
+                  </td>
+                </tr>
+                <tr>
+                  <th colspan="2">문의내용<img src="./images/_.svg" alt=""></th>                  
+                </tr>
+                <tr>
+                  <td colspan="2"><textarea name="" id="" placeholder="문의내용 입력"></textarea></td>                  
+                </tr>
+              </tbody>
+            </table>
+          </fieldset>
+        </form>
     <h2>폼4</h2>
     <form action="">
       <fieldset>
@@ -97,6 +294,220 @@
         
       </fieldset>
     </form>
+    <br>
+    <h2>폼5</h2>
+        <form>
+          <fieldset>
+            <legend>관심제품</legend>
+            <p>관심 제품을 직접 체험하고 적합한 서비스 형태를 제안 받아보세요.
+              이메일 혹은 전화로 담당자가 안내를 드립니다.</p>
+              <table class="product">
+                <caption>관심제품</caption>
+                <colgroup>
+                  <col style="width: 300px">
+                  <col />                  
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <th>문의 유형 및
+                      관심제품을
+                      선택해주세요.</th>
+                    <td>
+                      <div>
+                        <p><strong>문의유형</strong></p>
+                        <select name="" id="">
+                            <option value="">문의유형을 선택해주세요</option>
+                        </select>
+                      </div>
+                      <div>
+                        <p><strong>관심 및 문의 제품</strong></p>
+                        <input type="checkbox" name="" id="idf" checked><label for="idf" >ID FILTER</label>
+                        <input type="checkbox" name="" id="sdf"><label for="sdf">SERVER FILTER</label>
+                        <input type="checkbox" name="" id="wdf"><label for="wdf">WEB FILTER</label>
+                        <input type="checkbox" name="" id="idf1"><label for="idf1">ID FILTER</label>
+                        <input type="checkbox" name="" id="aidf"><label for="aidf">AI FILTER</label>
+                        <input type="checkbox" name="" id="ktf"><label for="ktf">KIOSK FILTER</label>
+                        <input type="checkbox" name="" id="nara"><label for="ktf">나라웍스</label>
+                        <input type="checkbox" name="" id="all"><label for="all">모든제품</label>
+                        <input type="checkbox" name="" id="etc"><label for="etc">기타</label>
+                      </div>
+                      <div>
+                        <p><strong>서비스형태</strong></p>
+                        <input type="checkbox" name="" id="cld" checked><label for="cld" >클라우드형</label>
+                        <input type="checkbox" name="" id="cons"><label for="cons">구축형</label>
+                        <input type="checkbox" name="" id="usb"><label for="wdf">USB형</label>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>기본정보를
+                      입력해주세요.</th>
+                      <td>
+                        <p><span>기본정보</span></p>
+                        <input type="text" name="" id="" placeholder="회사명을 입력해주세요.">
+                        <select name="" id="">
+                            <option value="">회사지역을 선택해주세요.</option>
+                        </select>
+                        <input type="text" name="" id="" placeholder="이름(담당자명)을 입력해주세요.">
+                        <input type="text" name="" id="" placeholder="직함을 입력해주세요.">
+                        <input type="text" name="" id="" placeholder="회사규모를 입력해주세요.(ex. 100인 이하)">
+                        <input type="text" name="" id="" placeholder="연락처를 입력해주세요.">
+                        <input type="email" name="" id="" placeholder="입력해주세요">
+                        <select name="" id="">
+                            <option value="">방문경로를 선택해주세요.</option>
+                        </select>
+
+                      </td>
+                  </tr>
+                  <tr>
+                    <th>문의내용을
+                      작성해주세요.</th>
+                      <td>
+                        <p><span>문의내용</span></p>
+                        <textarea name="" id="" placeholder="궁금하신 점을 자세히 적어 주실수록 자세한 상담이 가능합니다.
+소개서 요청 / 기술지원 제품명 / 문의 사항 등을 남겨주세요."></textarea>
+                      </td>
+                  </tr>
+                </tbody>
+              </table>
+          </fieldset>
+        </form>
+    <br>
+    <h2>폼6</h2>
+        <form>
+          <fieldset>
+            <legend>상담문의하기</legend>
+            <h2>상담 문의하기</h2> <img src="./images/bx_x.svg" alt="">
+            <p style="color:red">*선택사항 작성 시 보다 빠르고 정확한 상담이 가능합니다.</p>
+            <table class="inquiry">
+              <caption>상담문의하기</caption>
+              <colgroup>
+                <col />
+              </colgroup>
+              <tbody>
+                <tr>
+                  <td>
+                    <div>
+                      <label for="name">성함 (필수)</label>
+                      <input type="text" placeholder="ex) 김세모" id="name" required>
+                      <label for="tel1">연락처 (필수)</label>
+                      <input type="tel" placeholder="ex) 01012341234" id="tel1" required>
+                    </div>
+                    <div>
+                      <label for="brand">브랜드, 제품명 (선택)</label>
+                      <input type="text" placeholder="ex) 세모샴푸" id="brand" >
+                    </div>
+                    <div>
+                      <label for="inquiry">문의내용 (선택)</label>
+                      <textarea name="" id="inquiry" placeholder="ex) 제작문의/쇼호스트지원/아카데미수강"></textarea>
+                    </div>
+                    <div>
+                      <input type="checkbox" name="" id="agree"><label for="agree">개인정보 수집/이용 동의</label>
+                      <button type="button">열기</button>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <button type="submit" style="background:#FEDFDF">상담신청하기</button>
+          </fieldset>
+        </form>
+    <br>
+    <h2>폼7</h2>
+        <h2>온라인 신고하기</h2>
+        <form>
+          <fieldset>
+            <legend>온라인 신고하기</legend>
+            <table class="report">
+              <caption>신고하기</caption>
+              <colgroup>
+                <col />
+              </colgroup>
+              <tbody>
+                <tr>
+                  <td>
+                    <p>개인정보 수집·이용 동의</p>
+                    <p>제품 및 서비스 불만접수를 위하여 아래의 개인정보 수집∙이용에 대한 내용을 자세히 읽어 보신 후 동의 여부를 결정하여 주시기 바랍니다.</p>
+                    <ol>
+                      <li>개인정보의 수집 이용목적 : 상담 처리 및 처리 결과 회신</li>
+                      <li>개인정보 수집항목
+                        <span>1)필수항목 : 이름, 전화번호</span> <br>
+                        2)선택항목 : 이메일
+                      </li>
+                      <li>개인정보의 보유 및 이용기간 : 상담 처리 및 처리 결과 회신 후 3개월까지</li>
+                      <li>상담자는 위와 같은 개인정보 제공을 거부할 권리가 있으며, 부과되는 불이익은 없으나 상담의 적기 처리가 지연될 수는 있습니다</li>
+                    </ol>
+                    </td>
+                </tr>
+                <tr>
+                  <td>
+                    필수항목 
+                    <input type="radio" name="chk1" id="agree"><label for="agree">동의함</label>
+                    <input type="radio" name="chk1" id="disagree"><label for="disagree">동의하지않음</label>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    선택항목 
+                    <input type="radio" name="chk1" id="agree1"><label for="agree1">동의함</label>
+                    <input type="radio" name="chk1" id="disagree1"><label for="disagree1">동의하지않음</label>
+                  </td>
+                </tr>  
+                  <tr>
+                  <td>
+                    <strong>관게사<img src="./images/_.svg" alt=""></strong>
+                    <select name="" id="">
+                        <option value="">관계선택</option>
+                    </select>
+                  </td>
+                  </tr> 
+                <tr>
+                  <td>
+                    <strong>이름<img src="./images/_.svg" alt=""></strong>
+                    <input type="text" placeholder="이름을 입력하세요.">
+                  </td>
+                </tr>
+                  <tr>
+                  <td>
+                    <strong>전화번호<img src="./images/_.svg" alt=""></strong>
+                    <input type="tel" name="" id="" placeholder="-없이 숫자만 입력하세요.">
+                  </td>
+                  </tr> 
+                  <tr>
+                    <td>
+                      <strong>전화번호<img src="./images/_.svg" alt=""></strong>
+                      <input type="tel" name="" id="" placeholder="-없이 숫자만 입력하세요.">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>이메일<img src="./images/_.svg" alt=""></strong>
+                      <input type="text" name="" id="" placeholder="이메일">@
+                      <input type="text" placeholder="도메인">
+                      <select name="" id="">
+                          <option value="">선택</option>
+                      </select>
+                      <p>이메일을 입력 하지 않으면 답변을 받을 수 없습니다.</p>
+                    </td>
+                  </tr> 
+                  <tr>
+                    <td>
+                      <strong>제목<img src="./images/_.svg" alt=""></strong>
+                      <input type="text" name="" id="" placeholder="제목을 입력하세요.">
+                    </td>
+                  </tr> 
+                  <tr>
+                    <td>
+                      <strong>내용<img src="./images/_.svg" alt=""></strong>
+                      <textarea name="" id="" placeholder="내용을 입력하세요. (최대 1,000자까지 입력가능합니다."></textarea>
+                    </td>
+                  </tr>       
+              </tbody>
+            </table>
+            <button type="reset">취소</button>
+            <button type="submit">접수</button>
+          </fieldset>
+        </form>
     <h2>폼8</h2>
     <ul>
       <li>
@@ -133,111 +544,297 @@
         </form>
       </li>
     </ul>
-    <h2>폼2</h2>
-    <form action="">
-      <fieldset>
-        <legend>게시물검색</legend>
-        <select name="" id="">
-          <option value="">제목</option>
-        </select>
-        <input type="search" name="" id="" placeholder="검색어를 입력해주세요" />
-        <button type="submit">검색</button>
-      </fieldset>
-    </form>
-    <h2>공통속성</h2>
-    <input type="text" value="입력된값" />
-    <input type="radio" name="" id="" value="데이터 전달값" /> <br />
-    <div>이름</div>
-    <input type="text" placeholder="이름을 입력해주세요" /> <br />
-    <form action="">
-      <input type="text" minlength="5" maxlength="10" /> 최소/최대 글자수
-      <br />
-      <button>전송</button>
-    </form>
-    <br />
-    <br />
-    <input type="text" disabled value="작성됨" /> 비활성 <br />
-    <input type="text" readonly value="작성됨" /> 읽기전용 <br />
-    <br />
-    <br />
-    <input type="text" autofocus /> 초점이동 <br />
-    <input type="text" autofocus /> 초점이동
-    <br />
-    <br />
-    <input type="text" minlength="5" maxlength="10" /> 최소/최대 글자수
-    <input type="number" name="" id="" min="0" max="10" />
-    <br />
-    <br />
-    <input type="date" name="" id="" min="2025-02-08" max="2025-02-21" />
+    <br>
+    <h2>폼9</h2>
+        <form>
+          <fieldset>
+            <legend>와인보기</legend>
+            <nav>
+               <ul>
+                   <li><select name="" id="">
+                       <option value="">와인종류</option>
+                       <option value="">레드 와인</option>
+                       <option value="">화이트 와인 </option>
+                       <option value="">로제 와인</option>
+                       <option value="">로제 샴페인</option>
+                       <option value="">레드 스파클링 와인</option>
+                       <option value="">화이트 스파클링 와인</option>
+                       <option value="">로제 스파클린 와인</option>
+                       <option value="">스위트 와인</option>
+                   </select></li>
+                   <li><select name="" id="">
+                       <option value="">생산국</option>
+                   </select></li>
+                   <li><select name="" id="">
+                       <option value="">생산지</option>
+                   </select></li>
+                   <li><input type="search" name="" id="" placeholder="와인 이름을 입력하세요"><img src="./images/Group.svg" alt=""></li>
+               </ul>
+            </nav>
+            <div></div>
+                         
+          </fieldset>
+        </form>
+    <br>
+    <h2>폼10</h2>
+        <form>
+          <fieldset>
+            <legend>약관동의</legend>
+            <p>
+              <strong>약관동의</strong>
+              ※선택항목은 거부할 권리가 있으며 수신 동의 여부와 관계없이 본 서비스 가입 및 이용이 가능합니다.
+            </p>
+            <ul>
+              <li><input type="checkbox" name="" id="full"><label for="full">약관전체동의</label></li>
+              <li>
+                <input type="checkbox" name="" id="agree1"><label for="agree1">이용약관(필수) (필수)</label>
+                전체보기 <img src="./images/Vector.svg" alt="">
+              </li>
+              <li>
+                <input type="checkbox" name="" id="agree2"><label for="agree2">개인정보 수집 및 이용 동의 (필수)</label>
+                전체보기 <img src="./images/Vector.svg" alt="">
+              </li>
+              <li>
+                <input type="checkbox" name="" id="agree3"><label for="agree3">마케팅 활용 동의 (선택)</label>
+                전체보기 <img src="./images/Vector.svg" alt="">
+              </li>
+              <li>
+                <input type="checkbox" name="" id="agree4"><label for="agree4">광고성 정보 수신동의 (선택)</label>
+                전체보기 <img src="./images/Vector.svg" alt="">
+              </li>
+              <li>
+                <div>
+                  <p>선택 동의 항목</p>
+                  <p><strong>이벤트 등 마케팅/광고 수신 동의 (선택)</strong></p>
+                  <p>- 이벤트 등의 혜택 정보 제공을 위해 고객의 개인정보를 아래와 같이 수집합니다.
+                    - 고객님께서는 거부할 권리가 있으며 수신 동의 여부와 관계없이 본 서비스 가입 및 이용이 가능합니다.
+                    - 중요 공지 및 알림은 수신 동의 여부와 관계없이 발송됩니다.</p>
+                    <table class="tbl1">
+                      <caption>항목</caption>
+                      <colgroup>
+                        <col style="width: 345px">
+                        <col style="width: 345px">
+                        <col style="width: 345px">
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <th>수집 및 이용목적</th>
+                          <th>개인정보 수집항목</th>
+                          <th>보유 및 이용기간</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>이벤트 등 프로모션 알림 TM(전화)</td>
+                          <td>TM(전화)</td>
+                          <td>회원 탈퇴 시 까지</td>
+                        </tr>
+                      </tbody>                      
+                    </table>
+                    <a href="" type="button">개인정보 수집 및 이용에 동의합니다.</a>
+                </div>
+              </li>
+              <li>
+                <input type="checkbox" name="" id="agree5"><label for="agree5">광고성 정보 수신동의_TM (선택)</label>
+                전체보기 <img src="./images/Vector.svg" alt="">
+              </li>
+              <li>
+                <input type="checkbox" name="" id="agree5"><label for="agree5">광고성 정보 수신동의_이메일 (선택)</label>
+                전체보기 <img src="./images/Vector.svg" alt="">
+              </li>
+              <li>
+                <input type="checkbox" name="" id="agree5"><label for="agree5">광고성 정보 수신동의_메시지 (선택)</label>
+                전체보기 <img src="./images/Vector.svg" alt="">
+              </li>
+            </ul>
+            <p>※마케팅 활용 및 광고성 정보 수신 동의를 하시면 쿠폰증정, 할인정보 안내 등 특별한 혜택을 주기적으로 제공해 드립니다.</p>
+            <button type="submit">회원가입</button>
+            <button type="reset">취소</button>
+          </fieldset>
+        </form>
+    <br>
+    <h2>폼11</h2>
+    <p>채용, 시작부터 선발까지 Agile하게</p>
+    <h2>INCRUIT WORKS</h2>
+        <form>
+          <fieldset>
+            <legend>login</legend>
+            <ul>
+              <li><strong>Log in</strong></li>
+              <li><input type="text" placeholder="ID를 입력해주세요."><img src="./images/fluent_person-16-filled.svg" alt=""></li>
+              <li><input type="password" placeholder="비밀번호를 입력해주세요."><img src="./images/fluent_person-16-filled.svg" alt=""></li>
+              <li><button type="submit" style="background:#3F80EA">로그인</button></li>
+              <li>
+                아이디 찾기 <img src="./images/Line 28.png" alt=""> 
+                비밀번호 <img src="./images/Line 28.png" alt="">
+                회원가입 <img src="./images/Line 28.png" alt="">
+                INCRUITWORKS@INCRUIT.COM
+              </li>
+            </ul>
+          </fieldset>
+        </form>
 
-    <form action="">
-      <fieldset>
-        <legend>Flask</legend>
+      <br>
+      <h2>폼12</h2>
+      <p>채용, 시작부터 선발까지 Agile하게</p>
+      <h2>INCRUIT WORKS</h2>
+          <form>
+            <fieldset>
+              <legend>아이디 찾기</legend>
+              <nav>
+                 <ul>
+                     <li><a href="">아이디찾기</a></li>
+                     <li><a href="">비밀번호찾기</a></li>
+                 </ul>
+              </nav>
+              <div>
+                <input type="text" placeholder="이름을 입력해 주세요."><img src="./images/Vector32.svg" alt="">
+                <input type="email" placeholder="이름을 입력해 주세요."><img src="./images/Vector32.svg" alt="">
+                <button type="submit" style="background:#3F80EA">확인</button>
+              </div>
+                           
+            </fieldset>
+          </form>
+
+      <br>
+      <br>
+      <h2>폼13</h2>
+      <h2>도입문의 및 데모 신청</h2>
+          <form>
+            <fieldset>
+              <legend>데모신청</legend>
+              <table class="app">
+                <caption>표의제목</caption>
+                <colgroup>
+                  <col style="width: 383px">
+                  <col />
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <th colspan="2">요청사항 *</th>
+                  </tr>
+                  <tr>
+                    <th colspan="2">
+                      <input type="radio" name="" id="app1" checked><label for="app1">무료체험 신청</label>
+                      <input type="radio" name="" id="app2"><label for="app2">도입문의</label>
+                      <input type="radio" name="" id="app3"><label for="app3">서비스소개서 신청</label>
+                    </th>
+                  </tr>
+                  <tr>
+                    <th>
+                      <label for="inp1">회사명 <img src="./images/회사명 _.svg" alt=""></label>
+                      <input type="text" placeholder="회사명을 입력해 주세요" id="inp1">
+                    </th>
+                    <th>
+                      <label for="inp2">부서명 <img src="./images/회사명 _.svg" alt=""></label>
+                      <input type="text" placeholder="부서명을 입력해 주세요" id="inp2">
+                    </th>
+                  </tr>
+                  <tr>
+                    <th>
+                      <label for="inp3">이름 <img src="./images/회사명 _.svg" alt=""></label>
+                      <input type="text" placeholder="이름을 입력해 주세요" id="inp3">
+                    </th>
+                    <th>
+                      <label for="inp4">연락처 <img src="./images/회사명 _.svg" alt=""></label>
+                      <input type="text" placeholder="연락처를 입력해 주세요" id="inp4">
+                    </th>
+                  </tr>
+                  <tr>
+                    <th>
+                      <label for="inp5">이메일 <img src="./images/회사명 _.svg" alt=""></label>
+                      <input type="email" placeholder="이메일을 입력해 주세요" id="inp5">
+                    </th>
+                    <th>
+                      <label for="inp6">홈페이지 <img src="./images/회사명 _.svg" alt=""></label>
+                      <input type="text" placeholder="회사 홈페이지 주소를 입력해 주세요" id="inp6">
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+              <button type="submit" style="background:#3F80EA">문의 및 신청</button>
+            </fieldset>
+          </form>
+      <br>
+      <br>
+      <h2>폼15</h2>
+      <nav>
+         <ul>
+             <li><a href="#">브랜드</a></li>
+             <li><a href="#">검색조건</a></li>
+         </ul>
+      </nav>
+      <div>
         <ul>
-          <li><input type="text" required />한줄 글상자</li>
-          <!-- id는 Label을 위해서 name은 데이터담기 위해 -->
-          <li><input type="password" name="" id="" />비밀번호</li>
-          <li><input type="file" name="" id="" />첨부파일</li>
-          <li><input type="url" />주소입력</li>
-          <li><input type="email" name="" id="" />Email</li>
-          <li><input type="number" name="" id="" />숫자입력</li>
-          <li><input type="tel" name="" id="" />전화번호입력</li>
-          <li><input type="search" name="" id="" />검색입력</li>
-          <li><input type="date" name="" id="" />월별선택</li>
-          <li><input type="time" name="" id="" /></li>
-          <li><textarea name="" id="" col="10" row="5">여려줄입력상자</textarea></li>
-          <li><input type="range" name="" id="" /></li>
-          <li><progress></progress></li>
-          <li><input type="color" name="" id="" /></li>
-          <li><button type="button">범용버튼</button></li>
-          <li><button type="submit">전송버튼</button></li>
-          <li><button type="reset">초기화</button></li>
-          <li><button>전송버튼2</button></li>
           <li>
-            <select name="" id="">
-              <option value="">선택하세요</option>
-              <option value="number1">010</option>
-              <option value="number1">001</option>
-              <option value="number1">002</option>
-              <option value="number1">003</option>
-              <option value="number1">004</option>
-            </select>
+            전체상품
           </li>
           <li>
-            <select name="" id="" multiple>
-              <option value="">선택하세요</option>
-              <option value="number1">010</option>
-              <option value="number1">001</option>
-              <option value="number1">002</option>
-              <option value="number1">003</option>
-              <option value="number1">004</option>
-            </select>
+            <img src="./images/Frame 434.svg" alt="">
+            <span>나뚜루 교환권</span>
           </li>
           <li>
-            <select name="" id="">
-              <optgroup label="선택구릅">
-                <option value="">선택하세요</option>
-                <option value="number1">010</option>
-              </optgroup>
-              <optgroup label="선택구릅">
-                <option value="number1">001</option>
-                <option value="number1">002</option>
-              </optgroup>
-              <option value="number1">003</option>
-              <option value="number1">004</option>
-            </select>
+            <img src="./images/Frame 435.svg" alt="">
+            <span>던킨 교환권</span>
           </li>
           <li>
-            <input type="radio" name="group1" id="sel_1" /><label for="sel_1">선택1 </label><br />
-            <input type="radio" name="group1" id="sel_2" /><label for="sel_2">선택2</label>
+            <img src="./images/Frame 436.svg" alt="">
+            <span>뚜레쥬르 교환권</span>
           </li>
           <li>
-            <input type="checkbox" name="" id="c" /><label for="c">선택1</label> <br />
-            <input type="checkbox" name="" id="d" /><label for="d">선택2</label> <br />
-            <input type="checkbox" name="" id="e" /><label for="e">선택3</label> <br />
+            전체상품
+          </li>
+          <li>
+            <img src="./images/Frame 434.svg" alt="">
+            <span>나뚜루 교환권</span>
+          </li>
+          <li>
+            <img src="./images/Frame 435.svg" alt="">
+            <span>던킨 교환권</span>
+          </li>
+          <li>
+            <img src="./images/Frame 436.svg" alt="">
+            <span>뚜레쥬르 교환권</span>
+          </li>
+          <li>
+            전체상품
+          </li>
+          <li>
+            <img src="./images/Frame 434.svg" alt="">
+            <span>나뚜루 교환권</span>
+          </li>
+          <li>
+            <img src="./images/Frame 435.svg" alt="">
+            <span>던킨 교환권</span>
+          </li>
+          <li>
+            <img src="./images/Frame 436.svg" alt="">
+            <span>뚜레쥬르 교환권</span>
           </li>
         </ul>
-      </fieldset>
-    </form>
+            <form>
+              <fieldset>
+                <legend>검색조건</legend>
+                <ul>
+                  <li>
+                    <input type="radio" name="" id="ser1"><label for="ser1">~3천원</label>
+                    <input type="radio" name="" id="ser2"><label for="ser2">3천원 ~ 5천원</label>
+                    <input type="radio" name="" id="ser3"><label for="ser3">5천원 ~ 1만원</label>
+                    <input type="radio" name="" id="ser4" checked><label for="ser4">1만원 ~ 5만원</label>
+                    <input type="radio" name="" id="ser5"><label for="ser5">5만원 ~</label>
+                  </li>
+                  <li>
+                    가격대 <input type="number" min="10000" max="50000" value="10000"> ~ <input type="number" min="50000" max="200000" value="50000">
+                  </li>
+                  <li>
+                    상품명 <input type="text">
+                  </li>
+                </ul>
+                <button type="submit" style="background:#609F5F">적용</button>
+                <button type="reset" style="background:#609F5F">초기화</button>
+              </fieldset>
+            </form>
+      </div>
+                   
   </body>
 </html>

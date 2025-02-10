@@ -14,4 +14,14 @@ git push -u origin main
    Git push origin master
 
 2. figma > community > dashboard > filter(free)적용
-3. 이모지  Win + .   
+3. 이모지  Win + .
+4. names details 한개만열릴때,  radio group묶을때   
+5. 언제 margin과 padding을 줘야할까?
+
+   선밖은 margin
+   선안쪽은 padding
+
+   배경색 또는 배경이미지 밖은 margin
+   배경색 또는 배경이미지 안쪽은 padding
+
+   margin을 줄때에는 반드시 한방향으로 줘야 한다

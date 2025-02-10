@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/global.css" />
+  </head>
+  <body>
+    <details name="css">
+      <summary>선택자우선순위</summary>
+      <div class="specificity" id="selector" style="color: pink">우선순위</div>
+    </details>
+    <details name="css">
+      <summary>nesting</summary>
+      <div class="nesting">
+        <div>
+          <span>
+            <a href="">링크</a>
+            <em class="em">텍스트</em>
+          </span>
+        </div>
+      </div>
+    </details>
+    <details name="css">
+      <summary>font관련 CSS</summary>
+
+      <ul>
+        <li style="font-family: dotum">서체종류를 정의</li>
+        <li style="font-family: 'Noto Sans KR', serif">서체종류를 정의</li>
+        <li style="font-size: 12px">폰크크기를 정의</li>
+        <li style="font-size: 1rem">REM 정의</li>
+        <li style="font-weight: bold">서체 굵기</li>
+        <li style="font-family: 'Noto Sans KR', serif; font-weight: 100">서체 굵기</li>
+        <li>
+          <h1 style="font-weight: normal">굵은</h1>
+          <th style="font-weight: normal">굵은</th>
+          <strong style="font-weight: normal">굵은</strong>
+          <b style="font-weight: normal">굵은</b>
+        </li>
+        <li style="text-align: center">텍스트 수평정렬, inline요소, inline-block요소, left,right</li>
+        <li style="text-align: justify">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, similique voluptas minus tenetur consequuntur
+          nam alias numquam ipsum rerum quibusdam tempora temporibus doloribus, quod soluta pariatur ea qui
+          necessitatibus expedita.
+        </li>
+        <li style="vertical-align: middle"></li>
+        <li style="align-content: center; border: 1px solid black; height: 50px">텍스트 수직정렬, center, end</li>
+        <li style="color: #60a64d">텍스트 색상</li>
+        <li style="color: rgba(96, 166, 77, 0.5)">텍스트 색상</li>
+        <li style="color: transparent">텍스트 색상</li>
+        <li style="line-height: 20px"></li>
+        <li style="letter-spacing: -1px"></li>
+        <li style="text-decoration: underline">텍스트 줄꾸밈</li>
+        <li>
+          <a href="" style="text-decoration: none">링크</a>
+          <u style="text-decoration: none">밑줄</u>
+          <ins style="text-decoration: none">밑줄</ins>
+        </li>
+      </ul>
+      <div class="text-outline">텍스트 외곽선</div>
+    </details>
+    <details name="css">
+      <summary>Box Model</summary>
+      텍스트
+      <div class="box">여백정의</div>
+      <div class="box2">여백정의</div>
+      <div class="box3"></div>
+      텍스트
+    </details>
+    <details name="css">
+      <summary>Shadow</summary>
+      <div class="shadow"></div>
+      <br />
+      <br />
+      <br />
+      <div class="text-shadow">글씨</div>
+    </details>
+    <details name="css" open>
+      <summary>Radius</summary>
+      <div class="radius"></div>
+      <div class="circle"></div>
+    </details>
+  </body>
+</html>
